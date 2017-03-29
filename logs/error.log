@@ -1,0 +1,154 @@
+2016/07/28 16:27:04 [alert] 8756#9192: lua_code_cache is off; this will hurt performance in e:/openresty-test/conf/nginx.conf:9
+2016/07/28 16:27:04 [alert] 4612#2924: lua_code_cache is off; this will hurt performance in e:/openresty-test/conf/nginx.conf:9
+2016/07/28 16:27:09 [error] 4612#5656: *1 failed to load external Lua file "e:/openresty-test/lua/query_redis.lua": cannot open e:/openresty-test/lua/query_redis.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/07/28 16:27:09 [error] 4612#5656: *1 CreateFile() "e:/openresty-test/html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:6699", referrer: "http://localhost:6699/area2/"
+2016/07/28 16:31:01 [alert] 2052#960: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/28 16:43:27 [alert] 6964#6992: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/28 16:43:28 [alert] 7456#7724: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/28 16:44:34 [error] 7456#7520: *1 lua tcp socket connect timed out, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/07/28 16:44:35 [error] 7456#7520: *1 lua tcp socket connect timed out, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/07/28 16:44:35 [error] 7456#7520: *1 CreateFile() "e:\openresty-test/html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:6699", referrer: "http://localhost:6699/area2/"
+2016/07/28 16:45:08 [error] 7456#7520: *1 lua tcp socket connect timed out, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/07/28 16:52:48 [error] 7456#7520: *10 lua tcp socket connect timed out, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/07/29 09:10:06 [alert] 6188#6196: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 09:10:06 [alert] 8832#9940: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 09:10:10 [error] 8832#5304: *1 lua entry thread aborted: runtime error: e:\openresty-test/lua/query_redis.lua:1: module 'config' not found:
+	no field package.preload['config']
+	no file '/usr/local/share/lua/5.1/config.lua'
+	no file '/home/resty/config.lua'
+	no file './lualib/config.so'
+	no file '.\config.dll'
+	no file 'E:\openresty-1.9.15.1-win32\lualib\config.so'
+	no file 'E:\openresty-1.9.15.1-win32\config.dll'
+	no file 'E:\openresty-1.9.15.1-win32\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	e:\openresty-test/lua/query_redis.lua:1: in function <e:\openresty-test/lua/query_redis.lua:1>, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/07/29 09:10:10 [error] 8832#5304: *2 CreateFile() "e:\openresty-test/html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:6699", referrer: "http://localhost:6699/area2/"
+2016/07/29 09:22:46 [error] 8832#5304: *5 lua entry thread aborted: runtime error: e:\openresty-test/lua/query_redis.lua:1: module 'config' not found:
+	no field package.preload['config']
+	no file '/usr/local/share/lua/5.1/config.lua'
+	no file '/home/resty/config.lua'
+	no file './lualib/config.so'
+	no file '.\config.dll'
+	no file 'E:\openresty-1.9.15.1-win32\lualib\config.so'
+	no file 'E:\openresty-1.9.15.1-win32\config.dll'
+	no file 'E:\openresty-1.9.15.1-win32\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	e:\openresty-test/lua/query_redis.lua:1: in function <e:\openresty-test/lua/query_redis.lua:1>, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/07/29 09:25:23 [error] 8832#5304: *9 lua entry thread aborted: runtime error: e:\openresty-test/lua/query_redis.lua:1: module 'config' not found:
+	no field package.preload['config']
+	no file '/usr/local/share/lua/5.1/config.lua'
+	no file '/home/resty/config.lua'
+	no file './lualib/config.so'
+	no file '.\config.dll'
+	no file 'E:\openresty-1.9.15.1-win32\lualib\config.so'
+	no file 'E:\openresty-1.9.15.1-win32\config.dll'
+	no file 'E:\openresty-1.9.15.1-win32\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	e:\openresty-test/lua/query_redis.lua:1: in function <e:\openresty-test/lua/query_redis.lua:1>, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/07/29 09:25:25 [error] 8832#5304: *10 lua entry thread aborted: runtime error: e:\openresty-test/lua/query_redis.lua:1: module 'config' not found:
+	no field package.preload['config']
+	no file '/usr/local/share/lua/5.1/config.lua'
+	no file '/home/resty/config.lua'
+	no file './lualib/config.so'
+	no file '.\config.dll'
+	no file 'E:\openresty-1.9.15.1-win32\lualib\config.so'
+	no file 'E:\openresty-1.9.15.1-win32\config.dll'
+	no file 'E:\openresty-1.9.15.1-win32\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	e:\openresty-test/lua/query_redis.lua:1: in function <e:\openresty-test/lua/query_redis.lua:1>, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/07/29 09:27:06 [alert] 808#9632: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 09:27:06 [notice] 808#9632: signal process started
+2016/07/29 09:27:06 [alert] 6188#6196: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 09:27:06 [alert] 7256#7276: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 09:27:14 [error] 7256#4268: *12 lua entry thread aborted: runtime error: e:\openresty-test/lua/query_redis.lua:5: module 'resty.redis' not found:
+	no field package.preload['resty.redis']
+	no file 'e:/openresty-test/lua/resty\redis.lua'
+	no file './lualib/resty\redis.so'
+	no file '.\resty\redis.dll'
+	no file 'E:\openresty-1.9.15.1-win32\lualib\resty\redis.so'
+	no file 'E:\openresty-1.9.15.1-win32\resty\redis.dll'
+	no file 'E:\openresty-1.9.15.1-win32\loadall.dll'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'E:\openresty-1.9.15.1-win32\lualib\resty.so'
+	no file 'E:\openresty-1.9.15.1-win32\resty.dll'
+	no file 'E:\openresty-1.9.15.1-win32\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	e:\openresty-test/lua/query_redis.lua:5: in function 'query_slave_redis'
+	e:\openresty-test/lua/query_redis.lua:66: in function <e:\openresty-test/lua/query_redis.lua:1>, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/07/29 09:27:34 [alert] 10080#10064: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 09:27:34 [notice] 10080#10064: signal process started
+2016/07/29 09:27:34 [alert] 6188#6196: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 09:27:34 [alert] 4472#2504: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 09:29:48 [alert] 7592#7836: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 09:29:48 [notice] 7592#7836: signal process started
+2016/07/29 09:29:48 [alert] 6188#6196: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 09:29:48 [alert] 7444#6548: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 09:29:56 [error] 7444#3384: *14 lua tcp socket connect timed out, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/07/29 10:19:23 [alert] 10000#876: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 10:19:23 [notice] 10000#876: signal process started
+2016/07/29 10:19:23 [alert] 6188#6196: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 10:19:23 [alert] 420#6580: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 10:19:28 [error] 420#8728: *18 lua entry thread aborted: runtime error: e:\openresty-test/lua/query_redis.lua:5: module 'resty.redis' not found:
+	no field package.preload['resty.redis']
+	no file 'e:/openresty-test/lua/resty\redis.lua'
+	no file './lualib/resty\redis.so'
+	no file '.\resty\redis.dll'
+	no file 'E:\openresty-1.9.15.1-win32\lualib\resty\redis.so'
+	no file 'E:\openresty-1.9.15.1-win32\resty\redis.dll'
+	no file 'E:\openresty-1.9.15.1-win32\loadall.dll'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'E:\openresty-1.9.15.1-win32\lualib\resty.so'
+	no file 'E:\openresty-1.9.15.1-win32\resty.dll'
+	no file 'E:\openresty-1.9.15.1-win32\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	e:\openresty-test/lua/query_redis.lua:5: in function 'query_slave_redis'
+	e:\openresty-test/lua/query_redis.lua:66: in function <e:\openresty-test/lua/query_redis.lua:1>, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/07/29 10:58:39 [alert] 5508#8300: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 10:58:39 [notice] 5508#8300: signal process started
+2016/09/29 15:56:26 [alert] 3512#1980: lua_code_cache is off; this will hurt performance in d:\openresty-limit/conf/nginx.conf:9
+2016/09/29 15:56:26 [alert] 5448#5264: lua_code_cache is off; this will hurt performance in d:\openresty-limit/conf/nginx.conf:9
+2016/09/29 15:56:58 [error] 5448#4328: *1 lua entry thread aborted: runtime error: d:\openresty-limit/lua/limit_rate.lua:1: module 'config' not found:
+	no field package.preload['config']
+	no file 'e:/openresty-limit/lua/config.lua'
+	no file './lualib/config.so'
+	no file '.\config.dll'
+	no file 'D:\openresty-1.9.15.1-win32\lualib\config.so'
+	no file 'D:\openresty-1.9.15.1-win32\config.dll'
+	no file 'D:\openresty-1.9.15.1-win32\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	d:\openresty-limit/lua/limit_rate.lua:1: in function <d:\openresty-limit/lua/limit_rate.lua:1>, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/09/29 15:56:58 [error] 5448#4328: *2 CreateFile() "d:\openresty-limit/html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:6699", referrer: "http://localhost:6699/area2/"
+2016/09/29 15:57:54 [error] 5448#4328: *2 lua entry thread aborted: runtime error: d:\openresty-limit/lua/limit_rate.lua:1: module 'config' not found:
+	no field package.preload['config']
+	no file 'e:/openresty-limit/lua/config.lua'
+	no file './lualib/config.so'
+	no file '.\config.dll'
+	no file 'D:\openresty-1.9.15.1-win32\lualib\config.so'
+	no file 'D:\openresty-1.9.15.1-win32\config.dll'
+	no file 'D:\openresty-1.9.15.1-win32\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	d:\openresty-limit/lua/limit_rate.lua:1: in function <d:\openresty-limit/lua/limit_rate.lua:1>, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/09/29 15:58:27 [alert] 1696#7160: lua_code_cache is off; this will hurt performance in d:\openresty-limit/conf/nginx.conf:9
+2016/09/29 15:58:27 [notice] 1696#7160: signal process started
+2016/09/29 15:58:27 [alert] 3512#1980: lua_code_cache is off; this will hurt performance in d:\openresty-limit/conf/nginx.conf:9
+2016/09/29 15:58:27 [alert] 1640#5336: lua_code_cache is off; this will hurt performance in d:\openresty-limit/conf/nginx.conf:9
+2016/09/29 15:58:32 [error] 1640#1712: *7 [lua] limit_rate.lua:10: failed to instantiate a resty.limit.req object: shared dict not found, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
